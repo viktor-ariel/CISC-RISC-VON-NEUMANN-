@@ -40,7 +40,20 @@ O RISC também é amplamente utilizado em dispositivos móveis como celulares e 
 
 ### O que é cache?
 A memória cache (a pronúncia correta é <b>“cash”</b>, e não “cachê”) é um tipo de memória que trabalha em conjunto com o processador. De fato, todos os processadores atuais trazem uma certa quantidade de memória cache embutida no encapsulamento. O objetivo é potencializar o desempenho do chip de processamento, evitando que fique ocioso por longos períodos.
+A CPU (Central Processing Unit) trabalha diretamente com a memória RAM. Assim, todos os dados processados pelo chip são enviados pelos módulos de memória RAM.
+<b>Acontece que a memória RAM é muito mais lenta do que o processador.</b> Em outras palavras, ele processa dados mais rápido do que a memória RAM pode enviar. Isso resulta em longos períodos de ociosidade e, consequentemente, desperdício de capacidade do processador.
+<b>Para resolver esse problema e fazer com que a CPU trabalhe com a força máxima possível, foi criada a memória cache.</b> Ela é muito mais rápida que a memória RAM e tem a função de fornecer as informações mais cruciais para o processador.
+<br>
+Como funciona a memória cache?
 
+Como visto, esse tipo de memória possui alta velocidade e tem por função armazenar dados e instruções que a CPU poderá precisar em breve. Ela possibilita que o processador trabalhe com toda a capacidade e tenha o mínimo de tempo ocioso possível.Cada fabricante utiliza a memória cache de uma forma diferente. Isso também pode variar de acordo com a microarquitetura usada no chip. No entanto, o padrão é que, quando a CPU precisa buscar a sua primeira instrução, ela terá de ir até a memória RAM, visto que a memória cache estará vazia. Apesar disso, em vez de trazer apenas a solicitação feita pela CPU, a unidade de busca traz um bloco inteiro de instruções que, por sua vez, é armazenado na memória cache. Assim, se o processador for continuar a executar o referido programa, as instruções subsequentes estarão já armazenadas na memória cache. Então, a unidade de busca não precisará ir até a memória RAM para obtê-las.
+<br>
+Níveis de memória cache
+A memória cache é dividida em alguns níveis, conhecidos como L1, L2 e L3 (L significa Level, em inglês). Eles dizem respeito à proximidade da memória cache das unidades de execução do processador. Quanto mais próxima ela estiver da unidade de execução do processador, menor será o seu número. Assim, o cache L1 é o mais próximo possível. O L2 é um pouco mais distante e o L3 é ainda mais distante. Sempre que a unidade de busca do processador precisa de um novo dado ou instrução, ela procura inicialmente no cache L1. Se não encontrar, parte para o L2 e depois para o L3. Se a informação não estiver em nenhum dos níveis de memória cache, ela terá de ir até a memória RAM.
+Uma peculiaridade a respeito dos níveis, é que o L1 é dividido em memória de instrução e memória para dados. Com isso, o processador vai direto à memória de instrução, se estiver buscando uma instrução, ou vai direto à memória de dados, se estiver buscando um dado. Isso agiliza ainda mais o processador de busca.
+<br>
+
+### Arquitetura de VON NEUMANN
 
 
 
