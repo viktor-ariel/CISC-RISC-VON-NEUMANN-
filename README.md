@@ -54,6 +54,8 @@ Uma peculiaridade a respeito dos níveis, é que o L1 é dividido em memória de
 <br>
 
 ### Arquitetura de VON NEUMANN
+A Arquitetura de computador de von Neumann<b> se caracteriza pela possibilidade de uma máquina digital armazenar seus programas no mesmo espaço de memória que os dados,</b> podendo assim manipular tais programas. Esta arquitetura é um projeto modelo de um computador digital de programa armazenado que utiliza uma unidade de processamento (CPU) e uma de armazenamento ("memória") para comportar, respectivamente, instruções e dados.
+
 
 
 
