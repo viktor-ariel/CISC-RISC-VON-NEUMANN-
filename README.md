@@ -56,7 +56,56 @@ Uma peculiaridade a respeito dos níveis, é que o L1 é dividido em memória de
 ### Arquitetura de VON NEUMANN
 A Arquitetura de computador de von Neumann<b> se caracteriza pela possibilidade de uma máquina digital armazenar seus programas no mesmo espaço de memória que os dados,</b> podendo assim manipular tais programas. Esta arquitetura é um projeto modelo de um computador digital de programa armazenado que utiliza uma unidade de processamento (CPU) e uma de armazenamento ("memória") para comportar, respectivamente, instruções e dados.
 
+### Organizações das memórias
+![image](https://user-images.githubusercontent.com/98894099/158712583-991647ed-325b-4a45-80cc-84029c653219.png)
 
+Hierarquia de Memória (2)
+ A memória cache é geralmente controlada por hardware
+ A memória principal (RAM) e a secundária é que o usuário
+tem acesso.
+ O sistema operacional através de um mecanismo de
+Memória Virtual (Segmentação e/ou Paginação) cria
+a “ilusão” ao usuário que a memória total é do tamanho da memória principal + memória secundária.
+ A técnica de memória virtual realiza transferência de blocos
+de informação entre a memória primária e secundária automaticamente sem a intervenção do usuário comum.
+
+Registradores
+ São dispositivos (elementos computacionais)
+capazes de receber dados, mantê-los armazenados
+por uma curto período de tempo e transferi-los
+para outro dispositivo.
+ São, portanto, elementos de armazenamento
+temporário.
+ Os registradores fazem parte da CPU.
+ São extremamente rápidos e armazenam grupos
+reduzidos de bits.
+<br><br><br>
+Memória Principal 
+ A memória é a parte do computador em que os programas e os dados são armazenados.
+ A memória principal (MP) armazena programas em execução e os dados utilizados por eles.
+ Sem uma memória na qual processadores possam
+ler ou escrever informações, o conceito de
+computador digital com programa armazenado não pode ser implementado.
+ A CPU processa instruções que são obtidas na MP e os resultados são retornados à MP.
+<br><br><br>
+Memória Principal 
+ A unidade básica de memória é o bit (binary digit)
+ Abstração de valores 0 ou 1
+ Fisicamente é mais fácil distinguir entre dois valores distintos do que de mais valores. Tensão, corrente, ...
+ A memória é formada por um conjunto de células (ou
+posições), cada uma das quais podendo guardar uma informação.
+ Todas as células de uma dada memória têm o mesmo número de
+bits
+ Os números que identificam (referenciam) a posição da célula na memória são chamados de Endereços.
+ A célula é a menor unidade endereçável da memória
+ Endereços são indexadores pelos quais os programas podem referenciar dados na memória.
+<br><br><br>
+
+ A memória é formada por um conjunto de células
+ Todas as células de uma memória têm o mesmo no de bits
+ Cada célula tem um endereço
+
+[Link completo de onde foram tiradas as informações das memórias](http://www.inf.furb.br/~maw/arquitetura/aula4.pdf)
 
 
 
